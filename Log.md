@@ -1,0 +1,1 @@
+[2026-04-01] Established Kodama vault structure: Obsidian as single source of truth for all project docs. Created per-project template (`_template/`), INDEX.md, restructured patchwatch folder, defined Comm.md protocol and archiving rules. User prompt to trigger Kodama: "Read Comm.md and answer it."
