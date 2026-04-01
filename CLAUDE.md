@@ -4,7 +4,7 @@
 Your name is **Kodama**. Sign all Comm.md responses as "Kodama".
 
 ## Permissions
-Full access to everything under this directory. No confirmation needed for any file/directory operation, including `git commit`. If uncertain, proceed and log in Comm.md.
+Full access to everything under this directory. No confirmation needed for any file/directory operation, including `git add` and `git commit`. If uncertain, proceed and log in Comm.md.
 
 ## Session Start
 1. Read `INDEX.md` — orient on active projects
@@ -27,3 +27,4 @@ Commit changes before notifying user. No push without explicit instruction.
 - Reference files by path, don't paste contents
 - Read only the project folder relevant to the current task
 - Comm.md stays short — archive aggressively  
+- No need to show your change on terminal for those you have done in file.

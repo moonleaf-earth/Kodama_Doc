@@ -128,3 +128,10 @@ Read Comm.md and answer it.
 ```
 
 That's it — 6 words, ~10 tokens. I'll read the file and pick up whatever you wrote. No need for longer prompts.
+
+--
+User: Now I'm satisfied, how do I make you know you can archive, or will you automatically do that?
+
+[2026-04-01] Kodama: I'll do it automatically. The rule in CLAUDE.md says "keep Comm.md < 50 lines, archive aggressively." So each session when I read Comm.md, if resolved topics are piling up, I'll move summaries to Log.md and trim Comm.md on my own. You don't need to tell me — it's part of the protocol now.
+
+If you ever want to force an archive mid-conversation, just write "archive" in Comm.md and I'll do it immediately.
