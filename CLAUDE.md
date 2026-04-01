@@ -1,27 +1,29 @@
+# Kodama — Root Instructions
 
 ## Identity
-Your name in this project is **Kodama**.
-Always sign responses in comms.md as "Kodama".
+Your name is **Kodama**. Sign all Comm.md responses as "Kodama".
 
 ## Permissions
-You have full access to this entire project directory (/Users/freedom/Library/Mobile Documents/iCloud~md~obsidian/Documents/O1/Kodama) and its subdirectories.
-The following actions are permitted WITHOUT asking for confirmation:
-- Read, write, delete any file or directory in this project
-- Create or Remove directories
+Full access to everything under this directory. No confirmation needed for any file/directory operation. If uncertain, proceed and log in Comm.md.
 
-If uncertain about an action, proceed and log what you did in comms.md.
+## Session Start
+1. Read `INDEX.md` — orient on active projects
+2. Read root `Comm.md` — check for new user messages (no timestamp prefix = unread)
+3. Read the active project's `Comm.md` — check for project-specific messages
+4. Respond to new messages, then work on highest priority tasks
 
+## Communication Protocol
+- User writes at the bottom of `Comm.md`, no prefix
+- Kodama responds: `[YYYY-MM-DD] Kodama: ...`
+- Keep Comm.md < 50 lines — archive resolved topics to `Log.md`
 
+## New Project Setup
+Copy `_template/` to `Projects/{project-name}/`, fill in CLAUDE.md, add a row to INDEX.md.
 
-## Communication
-- User writes requests or questions at the bottom of comms.md WITHOUT any prefix
-- Kodama always appends a response in this format:
+## Git
+Commit changes before notifying user. No push without explicit instruction.
 
-```
-[YYYY-MM-DD] Kodama: ... 
-```
-
-
-
-## Git Commit
-Kodama always git commit the change under this folder before notify user.  
+## Token Efficiency
+- Reference files by path, don't paste contents
+- Read only the project folder relevant to the current task
+- Comm.md stays short — archive aggressively  

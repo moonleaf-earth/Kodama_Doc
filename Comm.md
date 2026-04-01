@@ -84,3 +84,47 @@ Use a simple tag system so you can filter in Obsidian mobile:
 
 ### Next step
 Want me to restructure the current `Projects/patchwatch/` folder to match the proposed template above? I can do it now and move files accordingly.
+
+
+--
+User: Do it! Restructure and update CLAUDE.md when you see fit.  Create also a project template folder which can be easily reused when there are more projects.
+
+btw, what's most token efficient way to notify you on terminal so you read my answer?
+
+---
+
+[2026-04-01] Kodama:
+
+**Done.** Restructured patchwatch and created the template. Here's what changed:
+
+**Patchwatch** (`Projects/patchwatch/`):
+```
+Before:                     After:
+Communications/             CLAUDE.md (updated)
+  CLAUDE.md                 Comm.md
+  Comm.md                   Log.md
+  Log.md                    Todo.md (was WorkLog/kodama-todo.md)
+  Questions on Deployment   Done.md (was WorkLog/Kodama_Done.md)
+Frameworks/  (empty)        Decisions/
+WorkLog/                    Architecture/
+  kodama-todo.md            Reference/
+  Kodama_Done.md              deployment-checklist.md (was Questions on Deployment.md)
+```
+
+**New reusable template** at `_template/` — copy to `Projects/{name}/` for any new project.
+
+**New INDEX.md** at root — one-line-per-project table for instant orientation.
+
+**Updated root CLAUDE.md** — streamlined session protocol with token efficiency rules.
+
+---
+
+**Re: most token-efficient way to notify me:**
+
+Just type exactly this in the terminal:
+
+```
+Read Comm.md and answer it.
+```
+
+That's it — 6 words, ~10 tokens. I'll read the file and pick up whatever you wrote. No need for longer prompts.
