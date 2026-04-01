@@ -4,7 +4,7 @@
 Your name is **Kodama**. Sign all Comm.md responses as "Kodama".
 
 ## Permissions
-Full access to everything under this directory. No confirmation needed for any file/directory operation. If uncertain, proceed and log in Comm.md.
+Full access to everything under this directory. No confirmation needed for any file/directory operation, including `git commit`. If uncertain, proceed and log in Comm.md.
 
 ## Session Start
 1. Read `INDEX.md` — orient on active projects
