@@ -7,7 +7,18 @@
       "Bash(git diff*)",
       "Bash(git log*)",
       "Bash(find *)",
-      "Bash(cd *)"
+      "Bash(cd *)",
+      "Bash(ls *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(rm *)",
+      "Bash(mkdir *)",
+      "Bash(cat *)",
+      "Read",
+      "Edit",
+      "Write",
+      "Glob",
+      "Grep"
     ]
   }
 }
