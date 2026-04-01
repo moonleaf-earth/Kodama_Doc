@@ -1,1 +1,1 @@
-
+[2026-04-01] Kodama: Added `Topics/` folder to both patchwatch and `_template/`. Usage: when a topic in Comm.md gets long, move it to `Topics/topic-name.md` and link from Comm.md. Keeps Comm.md short, topic gets full space.

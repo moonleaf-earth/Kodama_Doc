@@ -22,6 +22,7 @@ Done.md         ← completed tasks archive
 Decisions/      ← one .md per architectural decision
 Architecture/   ← system design, diagrams, API specs
 Reference/      ← deployment guides, moved files, external docs
+Topics/         ← deep-dive discussions on a single topic (linked from Comm.md)
 ```
 
 ## Comm.md Protocol
