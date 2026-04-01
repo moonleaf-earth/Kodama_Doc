@@ -1,3 +1,2 @@
-1. moves all `*.md` under folder   /Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch/local  to /Users/freedom/Library/Mobile Documents/iCloud~md~obsidian/Documents/O1/Kodama/Projects/patchwatch/Communications
-2. Look at /Users/freedom/Library/Mobile Documents/iCloud~md~obsidian/Documents/O1/Kodama/Projects/patchwatch/Communications/Questions on Deployment.md and answer inside it.
+[2026-04-01] Kodama: Done — moved 3 `.md` files from `local/` to `Topics/`. Answered your deployment DNS question in `Topics/Questions on Deployment.md`. Short version: you only need one CNAME → `cname.vercel-dns.com`, set to **DNS only** (gray cloud, not proxied). Delete the one pointing to `patchwatch-2604.vercel.app`.
 

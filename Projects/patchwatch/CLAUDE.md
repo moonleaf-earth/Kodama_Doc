@@ -27,7 +27,7 @@ Topics/         ← deep-dive discussions on a single topic (linked from Comm.md
 
 ## Comm.md Protocol
 - User writes at the bottom, no prefix
-- Kodama responds: `[YYYY-MM-DD] Kodama: ...`
-- Task added: `[YYYY-MM-DD] Kodama: Added to Todo.md — "task"`
-- Decision made: `[YYYY-MM-DD] Kodama: Decision logged to Decisions/topic.md`
+- Kodama responds in comm.md: `[YYYY-MM-DD] Kodama: ...`
+	- Task added: `[YYYY-MM-DD] Kodama: Added to Todo.md — "task"`
+	- Decision made: `[YYYY-MM-DD] Kodama: Decision logged to Decisions/topic.md`
 - When resolved, move summary to Log.md and delete from Comm.md
