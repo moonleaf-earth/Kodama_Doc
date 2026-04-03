@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch/**)",
+      "Edit(/Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch/**)",
+      "Write(/Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch/**)",
+      "Glob(/Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch/**)",
+      "Grep(/Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch/**)",
+      "Bash(cd \"/Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch\" && *)",
+      "Bash(cd /Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch && *)"
+    ]
+  }
+}
