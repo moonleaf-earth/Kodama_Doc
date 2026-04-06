@@ -202,12 +202,12 @@ Add credentials to Vercel env vars once chosen. Claude can wire the storage inte
 
 ## Step 12: Security Hardening Before Launch
 
-- [ ] Enable 2FA on: Cloudflare, GitHub, Vercel, Stripe, Supabase, Google Cloud, Resend
-- [ ] Use a password manager for all service credentials
+- [ ] Enable 2FA on: ~~Cloudflare~~, ~~GitHub~~, ~~Vercel~~, Stripe, ~~Supabase~~, Google Cloud, ~~Resend~~
+- [x] Use a password manager for all service credentials
 - [ ] In Supabase, review RLS policies — run a few test queries as an anonymous user to confirm they block unauthorized access
-- [ ] In Stripe, use restricted API keys with minimal permissions for production
-- [ ] In Google Cloud, remove `localhost` from OAuth redirect URIs in the production client
-- [ ] Run `git log --all --diff-filter=A -- '*.env*'` to confirm no secrets were ever committed
+- [x] In Stripe, use restricted API keys with minimal permissions for production
+- [x] In Google Cloud, remove `localhost` from OAuth redirect URIs in the production client
+- [x] Run `git log --all --diff-filter=A -- '*.env*'` to confirm no secrets were ever committed
 - [ ] Set up Vercel environment variable scoping: production secrets only in Production environment, test keys in Preview/Development
 
 ---

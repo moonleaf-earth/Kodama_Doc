@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch/**)",
+      "Bash(stripe events:*)",
+      "Bash(stripe webhook_endpoints list)",
+      "Bash(grep -E \"\\\\.\\(ts|tsx\\)$\")",
+      "Bash(stripe webhook_endpoints list --limit 10)"
+    ]
+  }
+}

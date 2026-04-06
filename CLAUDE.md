@@ -28,3 +28,6 @@ Commit changes before notifying user. No push without explicit instruction.
 - Read only the project folder relevant to the current task
 - Comm.md stays short — archive aggressively  
 - No need to show your change on terminal for those you have done in file.
+
+## When Change is made in CLAUDE.md or other claude settings
+If it needs to re-login CLAUDE to take effect, ask user to do so.

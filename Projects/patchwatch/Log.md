@@ -17,6 +17,12 @@
 - `Architecture/test-plan.md` — manual tests (browser, visual, third-party dashboards)
 - `Architecture/auto-test-spec.md` — automated tests (unit/integration/e2e) with file structure
 
+## [2026-04-03] Constants centralised + Team plan restored on homepage
+- Created `src/lib/constants.ts` — single source of truth for APP_NAME, APP_URL, EMAIL_FROM, geo constants, detection thresholds, API key prefix, localStorage keys
+- Updated 8 files to import from constants instead of hardcoding
+- Email from address changed to `alerts@patchwatch.moonleafearth.com`
+- Homepage pricing section now shows all 3 plans (Free / Pro $12 / Team $29); Pro price corrected from $9→$12
+
 ## [2026-04-03] Setup: permissions, knowledges, cross-repo linking
 - Permissions already global via `.claude/settings.json` — no change needed
 - Created `Knowledges/Stripe.md` and `Knowledges/Vercel.md`

@@ -31,3 +31,6 @@ Topics/         ← deep-dive discussions on a single topic (linked from Comm.md
 	- Task added: `[YYYY-MM-DD] Kodama: Added to Todo.md — "task"`
 	- Decision made: `[YYYY-MM-DD] Kodama: Decision logged to Decisions/topic.md`
 - When resolved, move summary to Log.md and delete from Comm.md
+
+## Permissions
+If there will be any extra permission needed to be granted, ask all at once before starting action, so the user can be away.  If you encounter any questions can not decide, write in comm.md so user can fix later. 
