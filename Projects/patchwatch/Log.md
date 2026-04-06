@@ -23,6 +23,12 @@
 - Email from address changed to `alerts@patchwatch.moonleafearth.com`
 - Homepage pricing section now shows all 3 plans (Free / Pro $12 / Team $29); Pro price corrected from $9→$12
 
+## [2026-04-06] R2, Stripe scoping, RLS fix
+- R2 free tier confirmed sufficient for early PatchWatch volume
+- Stripe/Supabase env scoping guidance added to `Knowledges/Vercel.md`
+- RLS infinite recursion fixed: `005_fix_team_members_rls.sql` created `get_my_team_ids()` SECURITY DEFINER function; applied to Supabase ✓
+- Permissions Q&A documented in `Topics/permissions.md`
+
 ## [2026-04-03] Setup: permissions, knowledges, cross-repo linking
 - Permissions already global via `.claude/settings.json` — no change needed
 - Created `Knowledges/Stripe.md` and `Knowledges/Vercel.md`
