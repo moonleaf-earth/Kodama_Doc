@@ -39,3 +39,11 @@
 - Created `Knowledges/Stripe.md` and `Knowledges/Vercel.md`
 - Updated codebase CLAUDE.md with Obsidian project folder link
 - Saved feedback: no terminal duplication, use relative paths
+
+## [2026-04-07] Planner: doc structure + services + remote tester trigger
+- Created `Architecture/services.md` — 8 services documented
+- Added `AGENTS.md`, `PRD.md`; moved test docs to `Test/`; fixed filename spaces
+- Diagnosed trigger `trig_01XrcuBtFcuCm86FMypM8omv` — 4 issues (one-shot cron, diagnostic-only prompt, no doc repo, PAT in plaintext)
+- Updated trigger: daily 22:00 Stockholm, both repos as sources, full test-fix-test loop prompt
+- Manual trigger run fired successfully
+- User now switching to GitHub Actions + claude-code-action approach for the test-fix-test loop
