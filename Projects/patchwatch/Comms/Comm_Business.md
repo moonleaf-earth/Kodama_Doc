@@ -26,4 +26,22 @@ If you need any other permission, add it in this doc or save locally, do not hal
 **MCP question:** No additional MCP needed for marketing now. Resend + Stripe MCPs already available; they're sufficient. If you add ConvertKit later, a ConvertKit MCP would help. No blocker.
 
 All files committed.
-	
+
+
+Z: Great! Create another "roadmap.md" , plan all proposed activities in a timeline. For example : 
+
+PHASE 1: Setup
+ Milestone 1: Setup Coworker: 
+      step 1: copy these into xxx
+ Milestone 2: Create accounts 
+     step 1: go to xxx website. 
+
+
+PHASE 2: PRE-LAUNCH
+
+PHASE 3: AFTER-LAUNCH
+
+This way to plan all user's work in sequence, including all delegation work to AI agents.
+Make it as checklist for steps. 
+
+[2026-04-07] Kodama: Created Topics/marketing/roadmap.md — 4 phases, checklist format, every step tagged You/Delegate/Auto. Time summary at the bottom: ~3-4h setup, ~4-5h launch day, ~15 min/week ongoing.
