@@ -36,3 +36,9 @@ Code Folder: ~/Projects/Kodama/Ongoing_Projects/260328_patchwatch
 2. Push the code repo (workflow commit is ready)
 3. Test with manual dispatch from Actions tab
 
+Z: 
+1. I set those 8 secrets in the code repo, under environment  `Configure 0408_test`
+    Maybe you need to change code repo?
+
+[2026-04-07] Kodama: Added `environment: Configure 0408_test` to the workflow so it picks up those secrets. Ready to push the code repo and test.
+
