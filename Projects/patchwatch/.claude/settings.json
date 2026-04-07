@@ -2,6 +2,7 @@
   "permissions": {
     "allow": [
       "Read(/Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch/**)",
+      "Search(/Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch/**)",
       "Edit(/Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch/**)",
       "Write(/Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch/**)",
       "Glob(/Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch/**)",
@@ -11,7 +12,8 @@
       "Bash(cd /Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch* && *)",
       "Bash(find /Users/freedom/Projects/Kodama/Ongoing_Projects/260328_patchwatch*)",
       "Bash(cd \"/Users/freedom/Library/Mobile Documents/iCloud~md~obsidian/Documents/O1/Kodama/Projects/patchwatch\"* && *)",
-      "Bash(cd \"/Users/freedom/Library/Mobile Documents/iCloud~md~obsidian/Documents/O1/Kodama/Knowledges\"* && *)"
+      "Bash(cd \"/Users/freedom/Library/Mobile Documents/iCloud~md~obsidian/Documents/O1/Kodama/Knowledges\"* && *)",
+      "Bash(cd \"/Users/freedom/Library/Mobile Documents/iCloud~md~obsidian/Documents/O1/Kodama\" && git *)"
     ]
   }
 }

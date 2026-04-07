@@ -29,6 +29,11 @@
 - RLS infinite recursion fixed: `005_fix_team_members_rls.sql` created `get_my_team_ids()` SECURITY DEFINER function; applied to Supabase ✓
 - Permissions Q&A documented in `Topics/permissions.md`
 
+## [2026-04-07] Deployment checklist v2 completed (Topics/user_todo_ver2.md)
+- Steps 1–11 done: domain, email routing, GitHub, Vercel deploy, domain connect, Stripe webhook, Google OAuth, Resend, image storage scoped
+- Remaining: 2FA on Stripe + Google Cloud; Vercel env var scoping (in Todo.md)
+- File archived and removed
+
 ## [2026-04-03] Setup: permissions, knowledges, cross-repo linking
 - Permissions already global via `.claude/settings.json` — no change needed
 - Created `Knowledges/Stripe.md` and `Knowledges/Vercel.md`
