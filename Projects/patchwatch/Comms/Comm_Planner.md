@@ -16,22 +16,23 @@ Code Folder: ~/Projects/Kodama/Ongoing_Projects/260328_patchwatch
 
 **Secrets needed in GitHub (code repo → Settings → Secrets):**
 
-| Secret | What | Status |
-|--------|------|--------|
-| `ANTHROPIC_API_KEY` | Anthropic API key | needs adding |
-| `CROSS_REPO_PAT` | GitHub PAT with `contents:write` on both repos | you may already have one |
-| `E2E_EMAIL` | `coworker_patchwatch@moonleafearth.com` | needs adding |
-| `E2E_PASSWORD` | password for that account | needs adding |
-| `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL | needs adding |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase anon key | needs adding |
-| `STRIPE_SECRET_KEY` | Stripe test key | needs adding |
-| `RESEND_API_KEY` | Resend API key | needs adding |
+| Secret                          | What                                           | Status                   |
+| ------------------------------- | ---------------------------------------------- | ------------------------ |
+| `ANTHROPIC_API_KEY`             | Anthropic API key                              | needs adding             |
+| `CROSS_REPO_PAT`                | GitHub PAT with `contents:write` on both repos | you may already have one |
+| `E2E_EMAIL`                     | `coworker_patchwatch@moonleafearth.com`        | needs adding             |
+| `E2E_PASSWORD`                  | password for that account                      | needs adding             |
+| `NEXT_PUBLIC_SUPABASE_URL`      | Supabase project URL                           | needs adding             |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase anon key                              | needs adding             |
+| `STRIPE_SECRET_KEY`             | Stripe test key                                | needs adding             |
+| `RESEND_API_KEY`                | Resend API key                                 | needs adding             |
 
 **vs old trigger:** No PAT in plaintext, both repos on disk (not cloned mid-prompt), credentials as env vars not in prompt text, full audit trail in GitHub Actions logs.
 
+**Where to add secrets:** Code repo only (`moonleaf-earth/patchwatch` → Settings → Secrets). The workflow runs there and checks out the doc repo via the PAT — doc repo needs no secrets.
+
 **Next steps:**
-1. Add the secrets above in GitHub
-2. Push the workflow file (commit is ready locally)
+1. Add all 8 secrets in the code repo on GitHub
+2. Push the code repo (workflow commit is ready)
 3. Test with manual dispatch from Actions tab
-4. Optionally disable the old Claude trigger `trig_01XrcuBtFcuCm86FMypM8omv`
 
