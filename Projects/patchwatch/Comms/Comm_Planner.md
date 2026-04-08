@@ -42,3 +42,16 @@ Z:
 
 [2026-04-07] Kodama: Added `environment: Configure 0408_test` to the workflow so it picks up those secrets. Ready to push the code repo and test.
 
+[2026-04-08] Kodama: Workflow debugged and working. 6 fixes applied:
+
+1. `npm ci` lock mismatch → ran `npm install` to sync package-lock.json
+2. Missing `permissions: id-token: write` → added (required by claude-code-action OIDC)
+3. `prompt` → `direct_prompt` (correct input name for agent mode)
+4. `mode: agent` added (required for `workflow_dispatch` trigger)
+5. `NEXT_PUBLIC_SUPABASE_ANON_KEY` → `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` (matches codebase)
+6. Environment name: `0408_test` (not `Configure 0408_test`)
+
+**Result:** Workflow runs successfully — checkout, install, Playwright all pass. Claude step reached but returned **"Credit balance is too low"** on the ANTHROPIC_API_KEY.
+
+**Action needed:** Add credits at https://console.anthropic.com → then re-run from Actions tab.
+
