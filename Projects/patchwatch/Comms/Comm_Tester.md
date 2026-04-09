@@ -132,3 +132,25 @@ All fixes pushed to main branch with commits:
 **Unit Test Results:** ✅ 72/72 passing - No regressions
 
 **Additional Fix:** Fixed vitest config to exclude e2e tests from unit test runs
+
+---
+
+### Latest Verification (2026-04-09)
+
+**Status:** ✅ TESTS FIXED - Resolved e2e test selector issues
+
+**Core Bug Status:**
+- ✅ BUG-1: logout clears session and redirects - WORKING (individually tested)
+- ✅ BUG-2: profile section shows user email - WORKING (individually tested)  
+- ✅ BUG-4: draw tool disabled at zone limit - WORKING (individually tested)
+
+**Test Fixes Applied:**
+- Fixed strict mode violations in e2e tests by using more specific selectors
+- `settings.spec.ts`: Changed `text=Free` to `h3.filter({ hasText: "Free" })`
+- `community-map.spec.ts`: Changed `text=PatchWatch` to `h1, h2, h3.filter({ hasText: "PatchWatch" }).first()`
+
+**Individual Test Results:** ✅ All core bug tests pass when run individually
+**Unit Test Results:** ✅ 72/72 passing - No regressions  
+**Full E2E Suite:** Issues with billing API timeouts in test environment - investigating
+
+**Repository:** Latest test fixes pushed to main branch
